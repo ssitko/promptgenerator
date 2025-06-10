@@ -4,8 +4,9 @@ go run main.go \
     -a "Experienced golang developer" \
     -p '''
     
-    Create simple CRUD app
+    Based on input program, generate documentation guide how to use it.
 
     ''' \
-    -o ./crud.go \
+    -i ./main.go \
+    -o ./README.md \
     -f ai.db
