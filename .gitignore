@@ -1,5 +1,2 @@
-prompt_generator
 ai.db
-run_prompt.sh
-db.go
 .env
